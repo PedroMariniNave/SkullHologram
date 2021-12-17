@@ -1,0 +1,6 @@
+name: SkullHologram
+description: Only a simple skull hologram plugin.
+version: 1.0
+api-version: 1.8
+main: com.zpedroo.skullhologram.SkullHologram
+depend: [HolographicDisplays]

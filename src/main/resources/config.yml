@@ -1,0 +1,24 @@
+MySQL:
+  enabled: false
+  host: localhost
+  database: db
+  username: user
+  password: pass
+  port: 3306
+
+Settings:
+  save-interval: 600 # em segundos
+  command: skullhologram
+  aliases: []
+  permission: skullhologram.admin
+  permission-message: '&cVocê não possui permissão para executar esse comando!'
+
+Messages:
+  command-usage: '&cUso correto: /skullhologram <nick> <texto>.'
+
+Item:
+  type: SKULL_ITEM
+  name: '&6???'
+  lore:
+    - '&7Essa cabeça pertence a: &f{player}'
+    - '&7Mensagem: {text}'
